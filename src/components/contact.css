@@ -1,0 +1,4 @@
+.send-btn:hover,
+.send-btn:focus {
+  background-color: lightblue !important;
+}

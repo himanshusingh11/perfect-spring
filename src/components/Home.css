@@ -1,0 +1,42 @@
+/* Home.css */
+
+/* Adjust slide title */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-width: 840px;
+    max-height: 400px;
+}
+.slide-title {
+    font-size: 2rem; /* Example font size */
+    color: #fff; /* Text color */
+  }
+  
+  /* Adjust slide text */
+  .slide-text {
+    font-size: 1.5rem; /* Example font size */
+    color: #fff; /* Text color */
+  }
+  
+  /* Adjust carousel controls color */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black; /* Controls background color */
+  }
+  
+  /* Adjust carousel indicators color */
+  .carousel-indicators li {
+    background-color: black; /* Indicators background color */
+  }
+  
+
+
+@media (max-width: 768px) {
+    .slide-title {
+      font-size: 1.5rem; /* Adjust font size for mobile view */
+    }
+  
+    .slide-text {
+      font-size: 1rem; /* Adjust font size for mobile view */
+    }
+  }
